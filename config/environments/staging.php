@@ -13,3 +13,5 @@ use Roots\WPConfig\Config;
  * Example: `Config::define('WP_DEBUG', true);`
  * Example: `Config::define('DISALLOW_FILE_MODS', false);`
  */
+Config::define('AUTOMATIC_UPDATER_DISABLED', false);
+Config::define('WP_DEBUG_DISPLAY', true);
